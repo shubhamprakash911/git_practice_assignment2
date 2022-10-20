@@ -8,7 +8,7 @@ str+=arr[0];
                //"1221"
 
 let rev = "";
-for(i=str.length-1;i<=0;i++){
+for(i=str.length-1;i>=0;i--){
 rev+=str[i];
 }
 
